@@ -32,6 +32,10 @@ outputs:
 - `plan-roadmap`
 - `prioritize`
 - `leadership-transition`
+- `wps-strategy`
+- `wps-design-solution`
+- `wps-write-prd`
+- `wps-quarter-planning`
 
 ## Validation
 

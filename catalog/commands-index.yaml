@@ -1,5 +1,5 @@
 generated_from: commands/*.md
-count: 6
+count: 10
 commands:
 - name: discover
   description: Run a structured discovery flow from problem framing through opportunity
@@ -75,6 +75,61 @@ commands:
   - Core strategic choices
   - Sequenced roadmap direction
   path: commands/strategy.md
+- name: wps-design-solution
+  description: Turn a WPS Project Management opportunity into compared solution options
+    and a recommended design direction.
+  argument_hint: <WPS problem, target users, and scenario>
+  uses:
+  - wps-problem-opportunity-map
+  - wps-feature-design
+  - wps-solution-evaluation
+  outputs:
+  - Problem and opportunity summary
+  - Feature design skeleton
+  - Recommended solution direction
+  path: commands/wps-design-solution.md
+- name: wps-quarter-planning
+  description: Sequence WPS Project Management quarter bets from strategy, opportunity
+    clusters, and solution decisions.
+  argument_hint: <quarter, strategic focus, and candidate WPS bets>
+  uses:
+  - wps-project-management-strategy
+  - wps-problem-opportunity-map
+  - wps-solution-evaluation
+  - wps-quarter-roadmap
+  outputs:
+  - Quarter thesis
+  - Sequenced roadmap bets
+  - Tradeoffs, risks, and success measures
+  path: commands/wps-quarter-planning.md
+- name: wps-strategy
+  description: Build WPS Project Management strategy from edition context through
+    users, scenarios, differentiation, and roadmap direction.
+  argument_hint: <WPS Project Management strategic question, stage, and context>
+  uses:
+  - wps-project-management-strategy
+  - problem-statement
+  - positioning-statement
+  - roadmap-planning
+  outputs:
+  - WPS strategy brief
+  - Core strategic choices
+  - Strategic risks and non-goals
+  path: commands/wps-strategy.md
+- name: wps-write-prd
+  description: Create a WPS Project Management PRD by chaining feature design, product
+    requirements, and story scaffolding.
+  argument_hint: <WPS feature or initiative to spec>
+  uses:
+  - wps-feature-design
+  - wps-project-management-prd
+  - user-story
+  - epic-hypothesis
+  outputs:
+  - WPS-specific PRD
+  - User stories and requirements
+  - Epic hypothesis and release notes
+  path: commands/wps-write-prd.md
 - name: write-prd
   description: Create a decision-ready PRD by chaining problem framing, requirements
     definition, and story scaffolding.

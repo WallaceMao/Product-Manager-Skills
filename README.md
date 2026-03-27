@@ -6,8 +6,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.75-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
-![Skills](https://img.shields.io/badge/skills-46-informational?style=flat-square)
-![Commands](https://img.shields.io/badge/commands-6-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-52-informational?style=flat-square)
+![Commands](https://img.shields.io/badge/commands-10-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
 
 ```text
@@ -20,7 +20,7 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   46 battle-tested skills + 6 command workflows                    ║
+║   52 battle-tested skills + 10 command workflows                   ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
 ║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                           ║
@@ -201,7 +201,7 @@ Still rewriting PM prompts and getting generic AI output? I built a reusable PM 
 
 ## 🎯 What This Is
 
-**46 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
+**52 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
 
 Instead of saying *"Write a PRD"* and hoping for the best, you and your agent both know:
 - ✅ How to structure a PRD and why each section earns its place
@@ -422,7 +422,7 @@ These 46 skills are organized into **three types** that build on each other:
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Component Skills (20) — Templates & Artifacts
+### Component Skills (24) — Templates & Artifacts
 **What:** Reusable templates for creating specific PM deliverables (user stories, positioning statements, epics, personas, PRDs, etc.)
 
 **When to use:** You need a standard template or format for a specific deliverable.
@@ -447,7 +447,7 @@ These 46 skills are organized into **three types** that build on each other:
 
 ---
 
-### Workflow Skills (6) — End-to-End Processes
+### Workflow Skills (8) — End-to-End Processes
 **What:** Complete PM processes that orchestrate multiple component and interactive skills over days/weeks.
 
 **When to use:** You need to run a full PM workflow from start to finish (strategy session, discovery cycle, roadmap planning, PRD creation).
@@ -456,11 +456,11 @@ These 46 skills are organized into **three types** that build on each other:
 
 ---
 
-## 📦 All 46 Skills (Clickable)
+## 📦 All 52 Skills (Clickable)
 
 Now that you understand the three types, here's the complete catalog:
 
-### 🧱 Component Skills (20)
+### 🧱 Component Skills (24)
 
 | Skill | Use When You Need To... |
 |-------|-------------------------|
@@ -484,6 +484,10 @@ Now that you understand the three types, here's the complete catalog:
 | **[user-story](skills/user-story/SKILL.md)** | Write user stories with proper acceptance criteria (Mike Cohn + Gherkin) |
 | **[user-story-mapping](skills/user-story-mapping/SKILL.md)** | Organize stories by user workflow (Jeff Patton framework) |
 | **[user-story-splitting](skills/user-story-splitting/SKILL.md)** | Break down large stories using 8 proven patterns |
+| **[wps-feature-design](skills/wps-feature-design/SKILL.md)** | Design WPS Project Management features across scenarios, roles, states, rules, and validation before PRD writing |
+| **[wps-problem-opportunity-map](skills/wps-problem-opportunity-map/SKILL.md)** | Turn WPS Project Management demand lists into clustered problems and opportunity areas |
+| **[wps-project-management-strategy](skills/wps-project-management-strategy/SKILL.md)** | Frame WPS Project Management strategy across editions, users, must-win scenarios, and differentiation |
+| **[wps-solution-evaluation](skills/wps-solution-evaluation/SKILL.md)** | Compare WPS Project Management solution options by value, fit, complexity, risk, and validation path |
 
 ---
 
@@ -514,7 +518,7 @@ Now that you understand the three types, here's the complete catalog:
 
 ---
 
-### 🎭 Workflow Skills (6)
+### 🎭 Workflow Skills (8)
 
 | Skill | What It Does | Timeline |
 |-------|--------------|----------|
@@ -524,6 +528,8 @@ Now that you understand the three types, here's the complete catalog:
 | **[product-strategy-session](skills/product-strategy-session/SKILL.md)** | Full strategy: positioning → problem framing → solution exploration → roadmap | 2-4 weeks |
 | **[roadmap-planning](skills/roadmap-planning/SKILL.md)** | Strategic roadmap: gather inputs → define epics → prioritize → sequence → communicate | 1-2 weeks |
 | **[skill-authoring-workflow](skills/skill-authoring-workflow/SKILL.md)** | Meta workflow: choose add/build path → validate conformance → update docs → package/publish | 30-90 minutes |
+| **[wps-project-management-prd](skills/wps-project-management-prd/SKILL.md)** | WPS-specific PRD workflow: edition context → roles and objects → WPS integration points → metrics and rollout | 2-4 days |
+| **[wps-quarter-roadmap](skills/wps-quarter-roadmap/SKILL.md)** | WPS quarter roadmap: strategy inputs → opportunity bets → sequencing → quarter success definition | 1-2 weeks |
 
 <a id="future-skills"></a>
 ### 🔮 Agent Skills of the Future

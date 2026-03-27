@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 46
+count: 52
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -499,3 +499,62 @@ skills:
   intent: 'Provide the canonical facilitation pattern for interactive skills: one
     step at a time, with clear progress, adaptive recommendations at decision points,
     and predictable interruption handling.'
+- name: wps-feature-design
+  description: Design WPS Project Management features across scenarios, flows, states,
+    roles, and validation. Use when turning an opportunity into a solution skeleton.
+  type: component
+  path: skills/wps-feature-design/SKILL.md
+  intent: Create a structured feature design skeleton for WPS Project Management before
+    full PRD writing. Use this to move from a validated opportunity to a coherent
+    design frame that covers user goals, scenario boundaries, task flow, states, roles,
+    permissions, edge cases, instrumentation, and release risks.
+- name: wps-problem-opportunity-map
+  description: Turn WPS Project Management demand lists into a structured problem
+    and opportunity map. Use when many requests exist but priority and value are unclear.
+  type: component
+  path: skills/wps-problem-opportunity-map/SKILL.md
+  intent: Convert raw WPS Project Management inputs such as demand lists, user feedback,
+    and stakeholder requests into a structured problem-opportunity map. Use this to
+    distinguish symptoms from root problems, cluster demand into scenario-level opportunities,
+    and identify which opportunities deserve validation or product investment.
+- name: wps-project-management-prd
+  description: Write a WPS Project Management PRD with edition context, object rules,
+    collaboration design, and validation plan. Use for major feature or initiative
+    specs.
+  type: workflow
+  path: skills/wps-project-management-prd/SKILL.md
+  intent: Create a WPS Project Management PRD that extends the repo's generic PRD
+    workflow with edition context, collaboration roles, object model impact, WPS ecosystem
+    integration points, instrumentation, and release-risk planning. Use this when
+    an initiative is real enough to need engineering-ready clarity without losing
+    strategic context.
+- name: wps-project-management-strategy
+  description: Frame product strategy for WPS Project Management across editions,
+    target users, scenarios, and differentiation. Use when aligning direction before
+    roadmap or solution work.
+  type: component
+  path: skills/wps-project-management-strategy/SKILL.md
+  intent: Create a WPS Project Management strategy brief that connects edition structure
+    (personal vs enterprise), target users, core scenarios, differentiation, adoption
+    path, and non-goals into one strategic view. Use this before roadmap, major feature
+    bets, or product repositioning so the team does not confuse feature inventory
+    with actual strategy.
+- name: wps-quarter-roadmap
+  description: Build a quarter roadmap for WPS Project Management across strategy,
+    opportunity clusters, and solution bets. Use when planning the next quarter's
+    investments.
+  type: workflow
+  path: skills/wps-quarter-roadmap/SKILL.md
+  intent: Create a WPS Project Management quarterly roadmap that links strategy, opportunities,
+    solution bets, sequencing, risks, and success metrics. Use this when converting
+    the product's current strategic choices into a quarter plan that is specific enough
+    to guide execution without collapsing into a feature dump.
+- name: wps-solution-evaluation
+  description: Compare WPS Project Management solution options by user value, strategic
+    fit, complexity, risk, and validation path. Use when multiple approaches compete.
+  type: component
+  path: skills/wps-solution-evaluation/SKILL.md
+  intent: Evaluate competing WPS Project Management solution options in a structured
+    way. Use this when product, design, and engineering have multiple possible approaches
+    and need a defensible recommendation that balances user value, edition fit, strategic
+    alignment, complexity, risk, and measurability.
