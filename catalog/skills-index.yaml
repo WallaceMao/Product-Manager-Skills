@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 53
+count: 55
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -86,6 +86,17 @@ skills:
     \ end-to-end customer experience, identify pain points, and create a shared mental\
     \ model across teams\u2014avoiding surface-level feature lists and ensuring discovery\
     \ work focuses on real customer problems, not assumed solutions."
+- name: customer-solution-narrative
+  description: Turn product capabilities into a customer-facing solution story for
+    sales, marketing, and customer success. Use when internal product thinking must
+    become external value communication.
+  type: component
+  path: skills/customer-solution-narrative/SKILL.md
+  intent: Create a customer-facing solution narrative that translates product strategy,
+    problem understanding, and feature capabilities into business-language value for
+    prospects and customers. Use this when product work must be packaged into a clear
+    solution story that sales, marketing, customer success, or partners can reuse
+    without relying on internal product jargon.
 - name: director-readiness-advisor
   description: Guide the PM-to-Director transition across preparing, interviewing,
     landing, and recalibrating. Use when leadership scope is changing and you need
@@ -194,6 +205,17 @@ skills:
     when you need a fast formula lookup, benchmark check, or decision framework reminder.
     For detailed explanations, calculations, and examples, see the related deep-dive
     skills.
+- name: ideal-customer-profile
+  description: Define an ICP that identifies which customers are most worth targeting,
+    winning, and keeping. Use when you need sharper customer selection for product,
+    GTM, or solution strategy.
+  type: component
+  path: skills/ideal-customer-profile/SKILL.md
+  intent: Create an Ideal Customer Profile (ICP) that clarifies which customers are
+    the best fit for a product or solution based on problem intensity, buying reality,
+    implementation conditions, and expected value realization. Use this when product,
+    sales, marketing, or customer success needs sharper customer selection instead
+    of broad audience language or user-only personas.
 - name: jobs-to-be-done
   description: Uncover customer jobs, pains, and gains in a structured JTBD format.
     Use when clarifying unmet needs, repositioning a product, or improving discovery

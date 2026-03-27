@@ -27,6 +27,7 @@ outputs:
 ## Available Commands (v1)
 
 - `critique-deliverable`
+- `define-icp`
 - `discover`
 - `strategy`
 - `write-prd`
@@ -35,6 +36,7 @@ outputs:
 - `leadership-transition`
 - `wps-strategy`
 - `wps-design-solution`
+- `wps-customer-solution`
 - `wps-write-prd`
 - `wps-quarter-planning`
 

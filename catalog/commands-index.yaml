@@ -1,5 +1,5 @@
 generated_from: commands/*.md
-count: 11
+count: 13
 commands:
 - name: critique-deliverable
   description: Critically review a product artifact and return severity-ranked findings,
@@ -12,6 +12,19 @@ commands:
   - Open questions
   - Pass / revise / do-not-use verdict
   path: commands/critique-deliverable.md
+- name: define-icp
+  description: Define an ideal customer profile by connecting the problem, user context,
+    customer environment, and fit signals.
+  argument_hint: <product or solution, target user, and customer context>
+  uses:
+  - problem-statement
+  - proto-persona
+  - ideal-customer-profile
+  outputs:
+  - Ideal customer profile brief
+  - Strong-fit, medium-fit, and poor-fit customer definitions
+  - Qualification and disqualification cues
+  path: commands/define-icp.md
 - name: discover
   description: Run a structured discovery flow from problem framing through opportunity
     mapping and validation planning.
@@ -86,6 +99,19 @@ commands:
   - Core strategic choices
   - Sequenced roadmap direction
   path: commands/strategy.md
+- name: wps-customer-solution
+  description: Turn a WPS Project Management product capability into a customer-facing
+    solution story for sales, marketing, and customer success.
+  argument_hint: <WPS capability, target customer, and scenario>
+  uses:
+  - wps-project-management-strategy
+  - wps-feature-design
+  - customer-solution-narrative
+  outputs:
+  - Customer-facing solution narrative
+  - Best-fit customer and scenario framing
+  - Adoption, rollout, and objection-handling story
+  path: commands/wps-customer-solution.md
 - name: wps-design-solution
   description: Turn a WPS Project Management opportunity into compared solution options
     and a recommended design direction.

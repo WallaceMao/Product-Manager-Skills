@@ -6,8 +6,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.75-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
-![Skills](https://img.shields.io/badge/skills-53-informational?style=flat-square)
-![Commands](https://img.shields.io/badge/commands-11-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-informational?style=flat-square)
+![Commands](https://img.shields.io/badge/commands-13-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
 
 ```text
@@ -20,7 +20,7 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   53 battle-tested skills + 11 command workflows                   ║
+║   55 battle-tested skills + 13 command workflows                   ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
 ║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                           ║
@@ -201,7 +201,7 @@ Still rewriting PM prompts and getting generic AI output? I built a reusable PM 
 
 ## 🎯 What This Is
 
-**53 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
+**55 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
 
 Instead of saying *"Write a PRD"* and hoping for the best, you and your agent both know:
 - ✅ How to structure a PRD and why each section earns its place
@@ -422,7 +422,7 @@ These 46 skills are organized into **three types** that build on each other:
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Component Skills (25) — Templates & Artifacts
+### Component Skills (27) — Templates & Artifacts
 **What:** Reusable templates for creating specific PM deliverables (user stories, positioning statements, epics, personas, PRDs, etc.)
 
 **When to use:** You need a standard template or format for a specific deliverable.
@@ -456,20 +456,22 @@ These 46 skills are organized into **three types** that build on each other:
 
 ---
 
-## 📦 All 53 Skills (Clickable)
+## 📦 All 55 Skills (Clickable)
 
 Now that you understand the three types, here's the complete catalog:
 
-### 🧱 Component Skills (25)
+### 🧱 Component Skills (27)
 
 | Skill | Use When You Need To... |
 |-------|-------------------------|
 | **[altitude-horizon-framework](skills/altitude-horizon-framework/SKILL.md)** | Understand the PM→Director mindset shift: altitude (scope), horizon (time), four transition zones, failure modes, and the Cascading Context Map. Based on [The Product Porch E42](https://the-product-porch-43ca35c0.simplecast.com/episodes/from-product-manager-to-director-how-to-make-the-shift-part-1) |
 | **[company-research](skills/company-research/SKILL.md)** | Deep-dive competitor or company analysis |
 | **[customer-journey-map](skills/customer-journey-map/SKILL.md)** | Map customer experience across all touchpoints (NNGroup framework) |
+| **[customer-solution-narrative](skills/customer-solution-narrative/SKILL.md)** | Turn product capabilities into a customer-facing solution story for sales, marketing, and customer success |
 | **[eol-message](skills/eol-message/SKILL.md)** | Communicate product/feature deprecation gracefully |
 | **[epic-hypothesis](skills/epic-hypothesis/SKILL.md)** | Turn vague initiatives into testable hypotheses with success metrics |
 | **[finance-metrics-quickref](skills/finance-metrics-quickref/SKILL.md)** | Fast lookup table for 32+ SaaS finance metrics with formulas, benchmarks, and when to use each |
+| **[ideal-customer-profile](skills/ideal-customer-profile/SKILL.md)** | Define which customers are most worth targeting, winning, and keeping for a B2B or SaaS product or solution |
 | **[jobs-to-be-done](skills/jobs-to-be-done/SKILL.md)** | Understand what customers are trying to accomplish (JTBD framework) |
 | **[pestel-analysis](skills/pestel-analysis/SKILL.md)** | Analyze external factors (Political, Economic, Social, Tech, Environmental, Legal) |
 | **[pol-probe](skills/pol-probe/SKILL.md)** | Define lightweight, disposable validation experiments to test hypotheses before building (Dean Peters PoL framework) |
@@ -631,6 +633,12 @@ Use GitHub app connections (formerly connectors), Custom GPT Knowledge uploads, 
 
 ### "I need to validate a customer problem before building"
 → **Workflow:** [`discovery-process`](skills/discovery-process/SKILL.md) (3-4 weeks, interviews → synthesis → validation)
+
+### "I need to define which customers are the best fit for this solution"
+→ **Component:** [`ideal-customer-profile`](skills/ideal-customer-profile/SKILL.md) (clarifies strong-fit, medium-fit, and poor-fit customers for product and GTM focus)
+
+### "I need to turn a product capability into a customer-facing solution story"
+→ **Component:** [`customer-solution-narrative`](skills/customer-solution-narrative/SKILL.md) (translates internal product thinking into reusable customer value communication)
 
 ### "I need to test a hypothesis quickly before investing in development"
 → **Interactive:** [`pol-probe-advisor`](skills/pol-probe-advisor/SKILL.md) (recommends which prototype type: Feasibility, Task-Focused, Narrative, Synthetic Data, or Vibe-Coded)
