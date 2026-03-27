@@ -26,6 +26,7 @@ outputs:
 
 ## Available Commands (v1)
 
+- `critique-deliverable`
 - `discover`
 - `strategy`
 - `write-prd`

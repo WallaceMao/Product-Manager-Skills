@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 52
+count: 53
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -343,6 +343,16 @@ skills:
     them, why, and how it makes them feel. Use this to align stakeholders on the problem
     before jumping to solutions, and to frame product work around user outcomes rather
     than feature requests.
+- name: product-deliverable-critique
+  description: Critically review product artifacts for evidence gaps, logic jumps,
+    scope creep, and execution ambiguity. Use when a deliverable looks polished but
+    may be weak.
+  type: component
+  path: skills/product-deliverable-critique/SKILL.md
+  intent: Pressure-test product work with disciplined critique. Use this when you
+    need to review an insight summary, opportunity map, solution direction, PRD, engineering
+    breakdown, roadmap, or review pack and identify what is missing, weak, overstated,
+    or not executable.
 - name: product-strategy-session
   description: Run an end-to-end product strategy session across positioning, discovery,
     and roadmap planning. Use when a team needs validated direction before committing

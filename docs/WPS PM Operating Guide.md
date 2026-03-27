@@ -10,6 +10,11 @@
 - 再写 PRD
 - 再做季度规划
 
+如果你想看一条真实跑通过的完整路径，从原始需求分析一直走到方案、PRD、工程拆解和评审包，请直接看：
+
+- [`WPS Demand-to-Decision Workflow.md`](/Users/sihuo/workspace/Product-Manager-Skills/docs/WPS%20Demand-to-Decision%20Workflow.md)
+- [`WPS Skill Map.md`](/Users/sihuo/workspace/Product-Manager-Skills/docs/WPS%20Skill%20Map.md)
+
 ---
 
 ## 这套体系解决什么问题

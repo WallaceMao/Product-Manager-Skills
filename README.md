@@ -6,8 +6,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.75-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
-![Skills](https://img.shields.io/badge/skills-52-informational?style=flat-square)
-![Commands](https://img.shields.io/badge/commands-10-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-53-informational?style=flat-square)
+![Commands](https://img.shields.io/badge/commands-11-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
 
 ```text
@@ -20,7 +20,7 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   52 battle-tested skills + 10 command workflows                   ║
+║   53 battle-tested skills + 11 command workflows                   ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
 ║   v0.75 • Mar 17, 2026 • CC BY-NC-SA 4.0                           ║
@@ -201,7 +201,7 @@ Still rewriting PM prompts and getting generic AI output? I built a reusable PM 
 
 ## 🎯 What This Is
 
-**52 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
+**53 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
 
 Instead of saying *"Write a PRD"* and hoping for the best, you and your agent both know:
 - ✅ How to structure a PRD and why each section earns its place
@@ -422,7 +422,7 @@ These 46 skills are organized into **three types** that build on each other:
 └───────────────────────────────────────────────────────────┘
 ```
 
-### Component Skills (24) — Templates & Artifacts
+### Component Skills (25) — Templates & Artifacts
 **What:** Reusable templates for creating specific PM deliverables (user stories, positioning statements, epics, personas, PRDs, etc.)
 
 **When to use:** You need a standard template or format for a specific deliverable.
@@ -456,11 +456,11 @@ These 46 skills are organized into **three types** that build on each other:
 
 ---
 
-## 📦 All 52 Skills (Clickable)
+## 📦 All 53 Skills (Clickable)
 
 Now that you understand the three types, here's the complete catalog:
 
-### 🧱 Component Skills (24)
+### 🧱 Component Skills (25)
 
 | Skill | Use When You Need To... |
 |-------|-------------------------|
@@ -476,6 +476,7 @@ Now that you understand the three types, here's the complete catalog:
 | **[positioning-statement](skills/positioning-statement/SKILL.md)** | Define who you serve, what problem you solve, and how you're different (Geoffrey Moore framework) |
 | **[press-release](skills/press-release/SKILL.md)** | Write a future press release to clarify product vision (Amazon Working Backwards) |
 | **[problem-statement](skills/problem-statement/SKILL.md)** | Frame a customer problem with evidence before jumping to solutions |
+| **[product-deliverable-critique](skills/product-deliverable-critique/SKILL.md)** | Critically review product artifacts for evidence gaps, logic jumps, scope creep, and execution ambiguity before decisions or handoff |
 | **[proto-persona](skills/proto-persona/SKILL.md)** | Create hypothesis-driven personas before doing full research |
 | **[recommendation-canvas](skills/recommendation-canvas/SKILL.md)** | Document AI-powered product recommendations |
 | **[saas-economics-efficiency-metrics](skills/saas-economics-efficiency-metrics/SKILL.md)** | Evaluate unit economics and capital efficiency (CAC, LTV, payback, margins, burn rate, Rule of 40, magic number) |
@@ -611,6 +612,9 @@ Use GitHub app connections (formerly connectors), Custom GPT Knowledge uploads, 
 - **[Commands](commands/README.md)** — Command format, command list, validation, and discovery.
 - **[Catalog Artifacts](catalog/README.md)** — Generated skill/command indexes for fast navigation.
 - **[PM Skills Rule-of-Thumb Guide](docs/PM%20Skills%20Rule-of-Thumb%20Guide.md)** — Non-technical setup choices (local repo vs ZIP vs app connections) in plain English.
+- **[WPS PM Operating Guide](docs/WPS%20PM%20Operating%20Guide.md)** — How to use the WPS-specific skills, commands, and research structure for day-to-day product work.
+- **[WPS Demand-to-Decision Workflow](docs/WPS%20Demand-to-Decision%20Workflow.md)** — End-to-end example path from raw WPS demand data to opportunities, solution direction, PRD, engineering breakdown, and review pack.
+- **[WPS Skill Map](docs/WPS%20Skill%20Map.md)** — Relationship map across WPS research files, synthesis outputs, skills, commands, and delivery artifacts.
 - **[Marketplace Strategy](MARKETPLACE_STRATEGY.md)** — PM-friendly strategy for distributing skills in marketplaces.
 - **[Marketplace Submission Runbook](docs/Marketplace%20Submission%20Runbook.md)** — Step-by-step submission workflow for non-technical teams.
 - **[Marketplace Issue Templates](docs/Marketplace%20Issue%20Templates.md)** — Reusable issue templates for marketplace execution and tracking.
@@ -643,6 +647,9 @@ Use GitHub app connections (formerly connectors), Custom GPT Knowledge uploads, 
 
 ### "I need to create a Q2 roadmap"
 → **Workflow:** [`roadmap-planning`](skills/roadmap-planning/SKILL.md) (1-2 weeks, epics → prioritization → sequencing)
+
+### "I need to pressure-test a PRD, insight summary, or review pack"
+→ **Component:** [`product-deliverable-critique`](skills/product-deliverable-critique/SKILL.md) (finds evidence gaps, logic jumps, scope creep, and execution ambiguity)
 
 ### "I need to choose a prioritization framework"
 → **Interactive:** [`prioritization-advisor`](skills/prioritization-advisor/SKILL.md) (asks questions, recommends RICE/ICE/Kano)

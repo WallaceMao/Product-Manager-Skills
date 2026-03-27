@@ -1,6 +1,17 @@
 generated_from: commands/*.md
-count: 10
+count: 11
 commands:
+- name: critique-deliverable
+  description: Critically review a product artifact and return severity-ranked findings,
+    open questions, and a verdict.
+  argument_hint: <artifact type, purpose, and content or file path>
+  uses:
+  - product-deliverable-critique
+  outputs:
+  - Severity-ranked findings
+  - Open questions
+  - Pass / revise / do-not-use verdict
+  path: commands/critique-deliverable.md
 - name: discover
   description: Run a structured discovery flow from problem framing through opportunity
     mapping and validation planning.
